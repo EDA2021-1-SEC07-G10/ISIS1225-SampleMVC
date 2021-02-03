@@ -79,7 +79,7 @@ while True:
     # TO-DO: Modificaciones para completar el laboratorio 1.
 
     elif int(inputs[0]) == 3:
-            print("Cargando información de identificadores....")
+            print("Cargando información de Identificadores....")
 
     else:
         sys.exit(0)
