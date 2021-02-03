@@ -43,7 +43,8 @@ def printMenu():
     print("1- Cargar Libros")
     print("2- Cargar Tags")
     # TO-DO: Modificaciones para completar el laboratorio 1.
-    print("0- Salir")
+    print("3 - Cargar identificadores de Libros y Tags")
+    print("0 - Salir")
 
 
 def loadBooks():
@@ -76,6 +77,9 @@ while True:
         tags = loadTags()
         print('Total de tags cargados: ' + str(lt.size(tags)))
     # TO-DO: Modificaciones para completar el laboratorio 1.
+
+    elif int(inputs[0]) == 3:
+            print("Cargando información de identificadores....")
 
     else:
         sys.exit(0)
