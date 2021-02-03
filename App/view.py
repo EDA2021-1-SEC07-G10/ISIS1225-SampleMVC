@@ -68,18 +68,18 @@ while True:
     printMenu()
     inputs = input('Seleccione una opción para continuar\n')
     if int(inputs[0]) == 1:
-        print("Cargando información de libros....")
+        print("Cargando información de libros...")
         books = loadBooks()
         print('Total de libros cargados: ' + str(lt.size(books)))
 
     elif int(inputs[0]) == 2:
-        print("Cargando información de tags....")
+        print("Cargando información de tags...")
         tags = loadTags()
         print('Total de tags cargados: ' + str(lt.size(tags)))
     # TO-DO: Modificaciones para completar el laboratorio 1.
 
     elif int(inputs[0]) == 3:
-            print("Cargando información de Identificadores....")
+            print("Cargando información de Identificadores...")
 
     else:
         sys.exit(0)
