@@ -27,4 +27,14 @@ Este directorio contiene todo el código de base que se entrega para el funciona
 
     |-- Utils: Funciones auxiliares para el funcionamiento de los TADs y estructuras de datos
 
+#Sobre el grupo 10
 
+Los integrantes del grupo y sus respectivos datos personales son:
+
+- María Paula Alméciga Moreno
+  Correo: m.almeciga@uniandes.edu.co
+  Código: 202023369
+
+- Andrés Felipe Vargas Cuadros
+  Correo: af.vargasc1@uniandes.edu.co
+  Código: 202013817
